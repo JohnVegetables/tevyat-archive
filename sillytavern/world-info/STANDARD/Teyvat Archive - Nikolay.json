@@ -1,0 +1,45 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Katarina"
+      ],
+      "keysecondary": [
+        "Nikolay",
+        "Kolya",
+        "Chasm"
+      ],
+      "comment": "Nikolay: Katarina's search",
+      "content": "Katarina stayed in the depths of the Chasm when Anton's group withdrew, got lost and camped in the Glowing Narrows. She asks the Traveler to find her brother, then goes to his last known position herself.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "category": "core",
+  "criteria": "Always-on global guidance entries.",
+  "cutoff": "7.1",
+  "notes": "Generated from the discovery research pass on 2026-10-11 and maintained by hand afterwards. Status is computed by tools/check_coverage.py --sync.",
+  "items": [
+    {
+      "id": "core.canon-rules",
+      "name": "Teyvat Archive: canon rules",
+      "entity_type": "core",
+      "status": "complete",
+      "priority": "critical",
+      "subdir": null,
+      "nation": null,
+      "introduced_in": "1.0",
+      "wiki": null,
+      "notes": "Always-on narrator guidance.",
+      "group": "manual"
+    }
+  ]
+}

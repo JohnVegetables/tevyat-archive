@@ -1,0 +1,85 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Baiwen"
+      ],
+      "keysecondary": [
+        "Ningguang",
+        "Jade Chamber",
+        "secretary"
+      ],
+      "comment": "Baiwen: Ningguang and Baiwen",
+      "content": "Baiwen helps oversee Ningguang's intelligence network. She admires how quickly Ningguang processes information and reaches verdicts, and considers the Jade Chamber the epicentre of Liyue's decisions.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Jade Chamber intelligence",
+        "intelligence network"
+      ],
+      "keysecondary": [
+        "Baiwen"
+      ],
+      "comment": "Baiwen: The Jade Chamber's Intelligence Network",
+      "content": "Baiwen describes the Jade Chamber as Liyue's foremost intelligence hub and says visitors' motives will be recorded; she urges guests not to underestimate it. Her colleague Baixiao says that no matter in Liyue escapes the Chamber.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

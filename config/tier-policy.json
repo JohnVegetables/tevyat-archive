@@ -1,0 +1,234 @@
+{
+  "tiers": [
+    "LITE",
+    "STANDARD",
+    "LARGE",
+    "ULTRA"
+  ],
+  "token_budgets_note": "Guidelines only. Measured with tools/estimate_tokens.py (tiktoken cl100k_base if installed, otherwise a calibrated heuristic). Quality beats filling a budget.",
+  "token_budgets": {
+    "playable_character": {
+      "LITE": [
+        150,
+        350
+      ],
+      "STANDARD": [
+        500,
+        1000
+      ],
+      "LARGE": [
+        1200,
+        2500
+      ],
+      "ULTRA": [
+        3000,
+        7000
+      ]
+    },
+    "major_npc": {
+      "LITE": [
+        100,
+        250
+      ],
+      "STANDARD": [
+        300,
+        700
+      ],
+      "LARGE": [
+        800,
+        1800
+      ],
+      "ULTRA": [
+        2000,
+        5000
+      ]
+    },
+    "location": {
+      "LITE": [
+        80,
+        200
+      ],
+      "STANDARD": [
+        250,
+        600
+      ],
+      "LARGE": [
+        700,
+        1500
+      ],
+      "ULTRA": [
+        1800,
+        4000
+      ]
+    },
+    "faction": {
+      "LITE": [
+        100,
+        250
+      ],
+      "STANDARD": [
+        300,
+        700
+      ],
+      "LARGE": [
+        800,
+        1800
+      ],
+      "ULTRA": [
+        2000,
+        5000
+      ]
+    },
+    "item": {
+      "LITE": [
+        50,
+        150
+      ],
+      "STANDARD": [
+        150,
+        350
+      ],
+      "LARGE": [
+        400,
+        900
+      ],
+      "ULTRA": [
+        1000,
+        2500
+      ]
+    },
+    "major_lore": {
+      "LITE": [
+        100,
+        250
+      ],
+      "STANDARD": [
+        300,
+        700
+      ],
+      "LARGE": [
+        800,
+        2000
+      ],
+      "ULTRA": [
+        2000,
+        6000
+      ]
+    }
+  },
+  "budget_scope": "Card-facing text: for characters the description+personality+scenario fields of the card (greetings and examples excluded); for other entities the main World Info entry. Sub-entries are reported separately.",
+  "character_sections": {
+    "order": [
+      "summary",
+      "appearance",
+      "personality",
+      "speech",
+      "roleplay",
+      "background",
+      "relationships",
+      "abilities",
+      "status",
+      "knowledge",
+      "mistakes",
+      "chronology",
+      "trivia",
+      "scenario",
+      "first_mes",
+      "alternate_greetings",
+      "mes_example",
+      "post_history"
+    ],
+    "labels": {
+      "summary": "Overview",
+      "appearance": "Appearance",
+      "personality": "Personality",
+      "speech": "Speech and voice",
+      "roleplay": "How {{char}} behaves",
+      "background": "Background",
+      "relationships": "Relationships",
+      "abilities": "Abilities and limits",
+      "status": "Status as of the canon cutoff",
+      "knowledge": "What {{char}} knows and does not know",
+      "mistakes": "Portrayal notes (common mistakes to avoid)",
+      "chronology": "Chronology",
+      "trivia": "Further details"
+    },
+    "card_field": {
+      "personality": "personality",
+      "scenario": "scenario",
+      "first_mes": "first_mes",
+      "alternate_greetings": "alternate_greetings",
+      "mes_example": "mes_example",
+      "post_history": "post_history_instructions"
+    },
+    "required": {
+      "character": {
+        "LITE": [
+          "summary",
+          "personality",
+          "background",
+          "relationships",
+          "abilities",
+          "status",
+          "knowledge",
+          "scenario",
+          "first_mes",
+          "mes_example"
+        ],
+        "STANDARD": [
+          "appearance",
+          "speech",
+          "roleplay",
+          "mistakes"
+        ],
+        "LARGE": [
+          "chronology"
+        ],
+        "ULTRA": []
+      },
+      "npc": {
+        "LITE": [
+          "summary",
+          "personality",
+          "background",
+          "relationships",
+          "status",
+          "knowledge",
+          "scenario",
+          "first_mes",
+          "mes_example"
+        ],
+        "STANDARD": [
+          "appearance",
+          "speech",
+          "roleplay",
+          "mistakes"
+        ],
+        "LARGE": [],
+        "ULTRA": []
+      },
+      "historical_figure": {
+        "LITE": [
+          "summary",
+          "background",
+          "status"
+        ],
+        "STANDARD": [
+          "relationships"
+        ],
+        "LARGE": [],
+        "ULTRA": []
+      }
+    }
+  },
+  "generic_required": {
+    "LITE": [
+      "summary"
+    ],
+    "STANDARD": [],
+    "LARGE": [],
+    "ULTRA": []
+  },
+  "each_tier_must_add": true,
+  "each_tier_must_add_note": "STANDARD, LARGE and ULTRA must each contain at least one block of their own (new section, replacement or '+' append), so no tier is a silent copy of the one below."
+}

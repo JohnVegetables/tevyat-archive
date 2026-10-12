@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "compiled-tier.schema.json",
+  "title": "Compiled tier file (data/**/<slug>-<TIER>.json)",
+  "type": "object",
+  "required": [
+    "id",
+    "entity_type",
+    "name",
+    "tier",
+    "schema_version",
+    "canon_cutoff",
+    "source_file",
+    "source_hash",
+    "header",
+    "fields",
+    "entries",
+    "stats"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "tier": {
+      "enum": [
+        "LITE",
+        "STANDARD",
+        "LARGE",
+        "ULTRA"
+      ]
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "canon_cutoff": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "source_hash": {
+      "type": "string"
+    },
+    "header": {
+      "type": "object"
+    },
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "attrs": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "text",
+          "attrs"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "attrs": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "stats": {
+      "type": "object"
+    }
+  }
+}

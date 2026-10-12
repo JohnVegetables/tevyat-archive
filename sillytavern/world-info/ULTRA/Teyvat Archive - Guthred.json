@@ -1,0 +1,83 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Draught of Lucidity"
+      ],
+      "keysecondary": [],
+      "comment": "Guthred: Draught of Lucidity",
+      "content": "A medicine Guthred devised during the cataclysm to dispel the psychological effects of Abyssal Corrosion Syndrome. It is reserved for the worst cases because the patients afterward suffer chronic migraines. Capitano used it to cure Ocotlan, a Flower-Feather Clan warrior lost in a hallucination, and it also eased the saurian Ayo, who was grieving after the invasion.\n\nGuthred's own testing of the Draught is why the treatment existed in time to be used, and why he died.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Guthred",
+        "Ororon possessed",
+        "Source Mechanism"
+      ],
+      "keysecondary": [
+        "Ororon",
+        "Capitano"
+      ],
+      "comment": "Guthred: Guthred possesses Ororon",
+      "content": "When Ororon switched on the Source Mechanism, a cry from beneath Natlan shook his unfinished soul and another soul took over. He moved with unusual speed and went for Xilonen, but Capitano caught him and recognized the speaker as someone else. The voice called Capitano 'Commander' and said Capitano would lose every chance if he kept caring about honor and others' sacrifices. Inside Ororon's mind it told him the world would not miss him; Ororon fought back by recalling people who cared for him and his own wish to matter, and regained his body.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

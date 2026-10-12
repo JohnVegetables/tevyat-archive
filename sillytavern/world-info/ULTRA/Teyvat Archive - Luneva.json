@@ -1,0 +1,43 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Paimon cold",
+        "Paimon check-up",
+        "Paimon doctor"
+      ],
+      "keysecondary": [],
+      "comment": "Luneva: Paimon's check-up",
+      "content": "Luneva examined Paimon at Podvorye Restaurant, found normal vital signs and test results, and judged it a cold. She gave medicine and told her to rest, watch her temperature and call again if a persistent low-grade fever developed.\n\nPaimon later says she is on the mend and that \"the doctor was right\", though her limbs still felt chilly.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    }
+  }
+}

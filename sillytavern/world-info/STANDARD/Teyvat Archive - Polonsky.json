@@ -1,0 +1,86 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Sretomorozsk",
+        "Kresnik Kristall",
+        "Kristall quota"
+      ],
+      "keysecondary": [
+        "Polonsky",
+        "Shishkin"
+      ],
+      "comment": "Polonsky: Sretomorozsk Kristall Dispute",
+      "content": "In Gunfire in the Silent Lands, Polonsky arrives for the twice-monthly Kristall delivery to Sretomorozsk, where quotas have dropped and prices risen because of Project Stuzha. Burtsev protests; Polonsky replies that the Fatui handle only delivery and security. Shishkin steps in to calm the crowd and offers time slots at the Kresnik's Torch combustion chamber. Later, Alyosha's evidence leads Polonsky to a hidden stash beside Shishkin's home and to many more crates at the mayor's house; both men are arrested and escorted to Snezhnograd.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Rokot"
+      ],
+      "keysecondary": [
+        "Polonsky",
+        "Alyosha"
+      ],
+      "comment": "Polonsky: Polonsky on the Rokot",
+      "content": "After the arrests Polonsky asks Alyosha whether he is really a hunter, then explains he means no offence but the Rokot has been recruiting people with such talents. He calls them an organisation that hides under false identities, works against Project Stuzha, sometimes directly opposes the Tsaritsa, and is not violent, with a goal of improving ordinary lives. As a Fatui, he says, he must keep tabs on them. Alyosha says he has not heard of it.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

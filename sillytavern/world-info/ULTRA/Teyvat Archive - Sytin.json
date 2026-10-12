@@ -1,0 +1,45 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Podvorye Restaurant"
+      ],
+      "keysecondary": [
+        "guard",
+        "Childe's orders",
+        "plain clothes"
+      ],
+      "comment": "Sytin: Podvorye Restaurant guard detail",
+      "content": "At Childe's order, the room at Podvorye Restaurant where Paimon is recovering from a cold is kept under guard. Sytin stands at its door and verifies visitors; other colleagues are placed inside and around the restaurant in plain clothes so the restaurant's business is not disturbed. Visitors have to show their identity, and the Traveler does so with their Adventurer Handbook.\n\nAlyosha and Odette enter with the Traveler, and Odette gives Paimon a Cor Ignis, a flame in ice, to keep her warm. Paimon says the doctor's advice seems to be working and expects to be travelling again within a few days.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    }
+  }
+}

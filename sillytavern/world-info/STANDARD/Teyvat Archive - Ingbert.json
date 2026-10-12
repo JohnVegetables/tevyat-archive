@@ -1,0 +1,47 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Dragonspine expedition",
+        "Ancient Investigation Journal"
+      ],
+      "keysecondary": [
+        "Ingbert",
+        "Eberhart",
+        "Landrich",
+        "Luther"
+      ],
+      "comment": "Ingbert: Dragonspine expedition",
+      "content": "Landrich sent an expedition to Dragonspine in the Aristocratic period. Luther's journals record a snowstorm, a fatal cave-in, a failed attempt to open a round door, and Eberhart's ambush of Ingbert and Luther in a cellar. Luther's last entry suspects Eberhart planned it all to advance his place in the family.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    }
+  }
+}

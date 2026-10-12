@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "quest.schema.json",
+  "title": "quest or event",
+  "description": "JSON header of a quest or event source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "quest"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [
+        "quest_type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "quest_type": {
+          "enum": [
+            "archon",
+            "interlude",
+            "story",
+            "world",
+            "hangout",
+            "event",
+            "dainsleif",
+            "other"
+          ]
+        },
+        "chapter": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "act": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "region": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "characters": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "prerequisites": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "story_order": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Position in in-world chronology, if known."
+        }
+      }
+    }
+  }
+}

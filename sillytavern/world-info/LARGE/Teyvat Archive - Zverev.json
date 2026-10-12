@@ -1,0 +1,85 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Svetloledovka"
+      ],
+      "keysecondary": [
+        "Zverev",
+        "Sandrone",
+        "Marionette"
+      ],
+      "comment": "Zverev: Svetloledovka accident",
+      "content": "Svetloledovka is an ice-mining site in Snezhnaya. During the Traveler's first visit to Snezhnograd, one of its machines failed under heavy snow, a support breaking and waking a dormant beast, and ice miners were trapped in a nearby cave. Zverev told Sandrone, who went there with the Traveler, with Odette's team already attempting the rescue.\n\nSandrone, the Traveler and Odette then deal with the trapped people and the beast in the cave.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Lady Marionette"
+      ],
+      "keysecondary": [
+        "Zverev",
+        "Fatuus"
+      ],
+      "comment": "Zverev: Sandrone as Lady Marionette",
+      "content": "Zverev calls Sandrone 'Lady Marionette', the Harbinger name she uses in Snezhnaya. She tells him to leave reports on her desk when she is on break, but accepts the Svetloledovka matter and says she is the only engineer needed.\n\nShe tells him that if anything happens to Paimon, he will answer to her.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

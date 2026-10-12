@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ability.schema.json",
+  "title": "power system, element or mechanic",
+  "description": "JSON header of a power system, element or mechanic source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "system"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [
+        "system_type",
+        "lore_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "system_type": {
+          "enum": [
+            "element",
+            "reaction",
+            "power_source",
+            "magic",
+            "technology",
+            "biology",
+            "physics",
+            "gameplay_mechanic",
+            "other"
+          ]
+        },
+        "lore_status": {
+          "enum": [
+            "in_universe",
+            "gameplay_abstraction",
+            "roleplay_adaptation",
+            "mixed"
+          ],
+          "description": "In-universe concept, gameplay abstraction, or this project's roleplay interpretation."
+        },
+        "element": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "coverage-manifest.schema.json",
+  "title": "Coverage manifest (coverage/*.json)",
+  "type": "object",
+  "required": [
+    "category",
+    "criteria",
+    "cutoff",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "type": "string"
+    },
+    "criteria": {
+      "type": "string"
+    },
+    "cutoff": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "source.schema.json"
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "not_started",
+              "researching",
+              "drafted",
+              "needs_verification",
+              "verified",
+              "complete",
+              "blocked"
+            ]
+          },
+          "priority": {
+            "enum": [
+              "critical",
+              "high",
+              "normal",
+              "low"
+            ]
+          },
+          "entity_type": {
+            "enum": [
+              "character",
+              "npc",
+              "historical_figure",
+              "location",
+              "faction",
+              "lore",
+              "cosmology",
+              "system",
+              "item",
+              "creature",
+              "culture",
+              "quest",
+              "timeline_event",
+              "term",
+              "core"
+            ]
+          },
+          "nation": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "introduced_in": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^\\d+\\.\\d+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "subdir": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "wiki": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "blocked_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "group": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Cor Lapis",
+        "Gentry Maocai",
+        "Xinyue Kiosk"
+      ],
+      "keysecondary": [
+        "Javert"
+      ],
+      "comment": "Javert: The Cor Lapis order",
+      "content": "Gentry Maocai promised the Fatui Cor Lapis and sought to buy Chang the Ninth's stock at 30 percent of market price. Javert said the Fatui would lend support, but warned that failure would make their good will costly. When Xingqiu and the Feiyun Commerce Guild bought all the ore and offered it to Maocai at triple the price, Javert fought them, judged the losses too great, and left Maocai to pay.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Sigil of Permission",
+        "Yanshang Teahouse",
+        "Childe"
+      ],
+      "keysecondary": [
+        "Javert"
+      ],
+      "comment": "Javert: Childe and the Sigil of Permission",
+      "content": "In Childe's Character Tale, Javert accompanies him to collect a debt at the Yanshang Teahouse. Childe found a Sigil of Permission on the debtor, expressed slight disappointment that Javert missed it, kept the sigil and exposed the owner's fraud to the Millelith. Javert apologised; Childe neither accepted nor refused it.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

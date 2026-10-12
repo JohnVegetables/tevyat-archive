@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "location.schema.json",
+  "title": "location",
+  "description": "JSON header of a location source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "location"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [
+        "location_type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "location_type": {
+          "enum": [
+            "realm",
+            "continent",
+            "nation",
+            "region",
+            "subregion",
+            "city",
+            "district",
+            "settlement",
+            "village",
+            "outpost",
+            "landmark",
+            "building",
+            "institution",
+            "sacred_site",
+            "domain",
+            "ruin",
+            "ancient_city",
+            "underground",
+            "island",
+            "water",
+            "route",
+            "other_realm",
+            "cosmological"
+          ]
+        },
+        "parent": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "region": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ruler": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archon": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "element": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "civilisation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "release_version": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "accessible_in_game": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

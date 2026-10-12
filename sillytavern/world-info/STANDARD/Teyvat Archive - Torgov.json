@@ -1,0 +1,87 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "black mist",
+        "staircase dream"
+      ],
+      "keysecondary": [
+        "Torgov",
+        "Soboleva"
+      ],
+      "comment": "Torgov: The black mist staircase dream",
+      "content": "In the dream that follows the first night, the Traveler wakes in an ornate staircase with Mitya, Soboleva and Torgov, fleeing a black mist that has chased them since birth. Mitya calls the cultists who welcome the mist liars. Torgov asks how he can be sure they are wrong and is told it is a dangerous question. Weary, he and Soboleva choose to give up and stay behind; Mitya wishes them peace in the mist and later notes that it has stopped moving for now.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Soboleva and Torgov",
+        "first night",
+        "first victims"
+      ],
+      "keysecondary": [
+        "theater",
+        "dead"
+      ],
+      "comment": "Torgov: The first deaths at the Korolevskiy Theater",
+      "content": "On the morning after the blizzard begins, Torgov and Soboleva are found motionless in a room, with no wounds and no sign of a struggle. Valeriy declares them dead; the cause is unclear. Chugunov blames Lelek. The group later learns, via Mitya and Ronova, that the theater's Ley Lines take souls each night and that the guests are already dead; Torgov and Soboleva were the first the Ley Lines took.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

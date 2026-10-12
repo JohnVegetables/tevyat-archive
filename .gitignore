@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+build/
+bundles/
+reports/
+*.exe
+
+data/*
+!data/indexes/
+data/indexes/*
+!data/indexes/character-index.json
+
+art/**
+!art/README.md

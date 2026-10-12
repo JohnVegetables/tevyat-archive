@@ -1,0 +1,83 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Hadura's chronicle",
+        "Mysterious Chronicle",
+        "Sentinel of the Golden Hall"
+      ],
+      "keysecondary": [],
+      "comment": "Hadura: Hadura's chronicle",
+      "content": "In the Ruin Golem on Devantaka Mountain, the chronicle for Hadura names the Schwanenritter and the title \"Sentinel of the Golden Hall\", records execution by the Knight Marshal for betrayal that caused irreversible damage to a machine, notes that the Knight Marshal lost his left eye, and says a proper knight's funeral was granted because Hadura was the last of the compatriots.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Klingsor",
+        "Hadura's descendant"
+      ],
+      "keysecondary": [
+        "Hadura"
+      ],
+      "comment": "Hadura: Klingsor and Hadura",
+      "content": "Klingsor, an Order of Skeptics ranger who called Hadura his ancestor, resented the Khaenri'ahns' reputation after the cataclysm and cited Hadura's efforts against the monsters. This made him doubt the Order's origin stories. He later joined an Akademiya expedition to Khaenri'ahn ruins, embraced the Abyss, and became an Abyss Herald.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Gediminas",
+        "Knave's message",
+        "northern research centre"
+      ],
+      "keysecondary": [
+        "Arlecchino",
+        "Dottore",
+        "Nod-Krai"
+      ],
+      "comment": "Gediminas: Arlecchino's Message",
+      "content": "In the Curatorium of Secrets scene of the 6.3 Archon Quest, Gediminas relays what the Knave learned: Dottore only pretended to go home to Snezhnaya and has not returned to the Design Bureau or Nasha Town, so Marionette concluded he is at his private laboratory in the far north of Nod-Krai. Arlecchino and Sandrone will go ahead, and the Traveler's allies may follow. He leaves a map and says that, in Nod-Krai, Arlecchino's subordinates are comrades if the party wants them to be.\n\nVarka thanked him as an acknowledgement of help from \"Columbina's two best friends\" in the Fatui; Nefer said the Knave's awareness had saved them a lot of trouble.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Experimental Design Bureau",
+        "Design Bureau"
+      ],
+      "keysecondary": [
+        "Gediminas",
+        "Arlecchino"
+      ],
+      "comment": "Gediminas: Kuuvahki Experimental Design Bureau",
+      "content": "Arlecchino's unit is based at this Fatui complex on Paha Isle in Nod-Krai. Gediminas says to look for them there. In the following quest Marionette says she had to move her livelihood out because Dottore's energy field swallowed it; Gediminas's fate is not stated.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

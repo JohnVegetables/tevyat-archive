@@ -1,0 +1,82 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Hortus Euergetis"
+      ],
+      "keysecondary": [],
+      "comment": "Euergetia: Hortus Euergetis",
+      "content": "An underwater garden in the Sea of Bygone Eras named for Euergetia. An engraving says that although her beneficence is forgotten, flowers will always bloom for her there.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Legio VI",
+        "Rithimi Versi"
+      ],
+      "keysecondary": [
+        "Euergetia",
+        "Remuria"
+      ],
+      "comment": "Euergetia: Legio VI Rithimi Versi",
+      "content": "A Remurian legion entrusted by Euergetia to Boethius to guard Caesareum Palace. Aetius, one of its soldiers, says none deserted and all died resisting the Dragonborn at the gates.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

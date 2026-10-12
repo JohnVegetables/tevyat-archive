@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lore-entry.schema.json",
+  "title": "lore, cosmology, culture, creature, term or core entry",
+  "description": "JSON header of a lore, cosmology, culture, creature, term or core entry source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "lore",
+        "cosmology",
+        "culture",
+        "creature",
+        "term",
+        "core"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [],
+      "additionalProperties": false,
+      "properties": {
+        "subject_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "classification": {
+          "enum": [
+            "confirmed",
+            "strongly_supported",
+            "inferred",
+            "disputed",
+            "unknown",
+            "noncanon"
+          ]
+        },
+        "element": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "region": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

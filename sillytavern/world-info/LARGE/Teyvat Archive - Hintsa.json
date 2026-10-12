@@ -1,0 +1,85 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Nefer",
+        "sponsorship",
+        "debt",
+        "Voynich Guild"
+      ],
+      "keysecondary": [
+        "Hintsa"
+      ],
+      "comment": "Hintsa: Nefer's sponsorship",
+      "content": "Nefer lent him money, introduced him to Aino and the Voynich Guild, and he became one of her informants. His debt is about 3.1 million Mora, unknown to his family.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Rossum Workshop"
+      ],
+      "keysecondary": [
+        "Hintsa"
+      ],
+      "comment": "Hintsa: Rossum Workshop",
+      "content": "The workshop where he made and repaired simple machines; now many clients approach him directly.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

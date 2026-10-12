@@ -1,0 +1,85 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Baixiao"
+      ],
+      "keysecondary": [
+        "Ningguang",
+        "Jade Chamber",
+        "secretary"
+      ],
+      "comment": "Baixiao: Ningguang and Baixiao",
+      "content": "Baixiao serves Ningguang as a secretary and describes her as one of the Liyue Qixing who oversees Liyue and its trade. She will say no more than that and refers visitors to Ningguang herself.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Zhenhai"
+      ],
+      "keysecondary": [
+        "Baixiao",
+        "Jade Chamber"
+      ],
+      "comment": "Baixiao: Zhenhai",
+      "content": "Zhenhai is a Millelith guard at the entrance to the Jade Chamber and Baixiao's cousin. His idle line wishes for a more physically demanding job.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

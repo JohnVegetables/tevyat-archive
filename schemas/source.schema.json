@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Source citation",
+  "type": "object",
+  "required": [
+    "title",
+    "type",
+    "confidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Name of the source: quest, page, item, book, announcement."
+    },
+    "type": {
+      "enum": [
+        "in_game_quest",
+        "in_game_profile",
+        "in_game_voiceover",
+        "in_game_text",
+        "in_game_item",
+        "in_game_event",
+        "official_announcement",
+        "official_publication",
+        "official_video",
+        "wiki",
+        "other"
+      ]
+    },
+    "section": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Chapter, act, section or subpage."
+    },
+    "version": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Game version that introduced the cited material, if known."
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "accessed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

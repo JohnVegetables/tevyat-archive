@@ -1,0 +1,83 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Rerir",
+        "Special Operation",
+        "Rächer of Solnari"
+      ],
+      "keysecondary": [],
+      "comment": "Thorkell: Rerir and the Special Operation memory",
+      "content": "In the quest Special Operation (Song of the Welkin Moon), Nefer's ceremony shows Rerir's memories. Thorkell appears there as his colleague, praising an operation that captured many Crimson Moon followers and remarking that the pair are orphans without a choice. The scene shows Rerir as a hidden executioner, an identity he withholds from his fiancee Tholindis.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Crimson Moon",
+        "Crimson Moon dregs"
+      ],
+      "keysecondary": [
+        "Thorkell"
+      ],
+      "comment": "Thorkell: Crimson Moon remnants",
+      "content": "In Thorkell's view the Crimson Moon dynasty is a dead cause that lingers in the hearts of romantics. He reports that its remnants still murder colleagues and fears retaliation against Rerir.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

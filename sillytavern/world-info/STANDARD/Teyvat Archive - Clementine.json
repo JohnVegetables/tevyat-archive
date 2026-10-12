@@ -1,0 +1,83 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Clementine Line",
+        "Clementine aquabus"
+      ],
+      "keysecondary": [],
+      "comment": "Clementine: Clementine Line",
+      "content": "The north-south aquabus line named for Clementine, narrated by a tour guide named Aeval. Its stops include the Court of Fontaine. It belongs to the network Callas built with the Court of Fontaine and the Fontaine Research Institute. In the 4.3 story quest, Romeuf's faction tries to destroy its supports.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Romeuf"
+      ],
+      "keysecondary": [
+        "Clementine",
+        "Callas",
+        "Spina di Rosula"
+      ],
+      "comment": "Clementine: Romeuf's break with the Spina",
+      "content": "Romeuf wanted Spina funds spent on Poisson rather than the aquabus; he left with many members after Callas pressed ahead. His followers argued that Clementine could no longer be a fair mediator because she backed Callas and was pregnant.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

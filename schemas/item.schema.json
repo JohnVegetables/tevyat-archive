@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "item.schema.json",
+  "title": "item, weapon, artifact or material",
+  "description": "JSON header of a item, weapon, artifact or material source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "item"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [
+        "item_type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "item_type": {
+          "enum": [
+            "weapon",
+            "weapon_type",
+            "artifact_set",
+            "relic",
+            "quest_item",
+            "book",
+            "material",
+            "consumable",
+            "food",
+            "gadget",
+            "currency",
+            "instrument",
+            "device",
+            "ceremonial",
+            "other"
+          ]
+        },
+        "weapon_type": {
+          "enum": [
+            "Sword",
+            "Claymore",
+            "Polearm",
+            "Bow",
+            "Catalyst",
+            null
+          ]
+        },
+        "rarity": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "owners": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "origin": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gameplay_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

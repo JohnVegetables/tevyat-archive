@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "timeline-event.schema.json",
+  "title": "historical or story event",
+  "description": "JSON header of a historical or story event source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "timeline_event"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [],
+      "additionalProperties": false,
+      "properties": {
+        "era": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "when": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "In-world dating as canon gives it, e.g. '500 years ago'."
+        },
+        "sort_key": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Approximate in-world order; larger is later; null when unknown."
+        },
+        "places": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "participants": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "learned_in": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        }
+      }
+    }
+  }
+}

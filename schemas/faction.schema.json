@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "faction.schema.json",
+  "title": "faction or organisation",
+  "description": "JSON header of a faction or organisation source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "faction"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [
+        "faction_type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "faction_type": {
+          "enum": [
+            "government",
+            "military",
+            "religious",
+            "scholarly",
+            "criminal",
+            "mercantile",
+            "secret_society",
+            "historical",
+            "guild",
+            "tribe",
+            "household",
+            "other"
+          ]
+        },
+        "leaders": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "leader_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "headquarters": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parent_org": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "founded": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operating_areas": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        }
+      }
+    }
+  }
+}

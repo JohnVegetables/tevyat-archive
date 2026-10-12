@@ -1,0 +1,83 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Osial",
+        "Overlord of the Vortex"
+      ],
+      "keysecondary": [],
+      "comment": "Beisht: Osial",
+      "content": "Osial was the Overlord of the Vortex, a sea-god sealed or defeated at the end of the Archon War, who attacked Liyue Harbor when freed. Beisht is described as his wife and last follower.\n\nNingguang notes that the Jade Chamber is what defeated him in the earlier age, which is why its return provoked Beisht.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Jade Chamber",
+        "rebuilding the Jade Chamber"
+      ],
+      "keysecondary": [
+        "Beisht",
+        "Ningguang"
+      ],
+      "comment": "Beisht: The Jade Chamber Ambush",
+      "content": "Ningguang rebuilt the Jade Chamber with the Traveler and Shenhe's help and used its ascent as bait. Keqing and Ganyu oversaw ballistae at Guyun Stone Forest, Qiqi evacuated the seaside, and bandages were ordered from Bubu Pharmacy. Beisht emerged and was wounded by every defence before Shenhe's frozen wave and the final underwater fight.\n\nNingguang says the people of Liyue must overcome the crisis 'on our strength alone' and refuses the adepti's help, though Cloud Retainer watched and later judged her preparation satisfactory.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

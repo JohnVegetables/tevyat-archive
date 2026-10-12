@@ -1,0 +1,85 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Scribe's Box",
+        "Princess' Box"
+      ],
+      "keysecondary": [
+        "Ukko",
+        "Sal Vindagnyr"
+      ],
+      "comment": "Ukko: Scribe's Box",
+      "content": "Dragonspine item text. The Scribe's Box carries the scribe's wishes for the world's destruction and for revenge on the outsider; the Princess' Box carries the princess' last monologue and her apology to Ukko.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Frostarm Lawachurl",
+        "Lawachurl"
+      ],
+      "keysecondary": [
+        "Ukko"
+      ],
+      "comment": "Ukko: Frostarm Lawachurl Ukko",
+      "content": "A respawning boss on Dragonspine with Ukko's name. The wiki considers it likely, but not confirmed, that the scribe was cursed into a hilichurl for forsaking the gods.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

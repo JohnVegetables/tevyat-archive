@@ -1,0 +1,98 @@
+{
+  "entity_types": {
+    "character": {
+      "prefix": "character",
+      "root": "characters/playable",
+      "budget": "playable_character",
+      "card": true
+    },
+    "npc": {
+      "prefix": "npc",
+      "root": "characters/major-npcs",
+      "budget": "major_npc",
+      "card": true
+    },
+    "historical_figure": {
+      "prefix": "historical",
+      "root": "characters/historical-figures",
+      "budget": "major_npc",
+      "card": "optional"
+    },
+    "location": {
+      "prefix": "location",
+      "root": "world",
+      "budget": "location"
+    },
+    "faction": {
+      "prefix": "faction",
+      "root": "factions",
+      "budget": "faction"
+    },
+    "lore": {
+      "prefix": "lore",
+      "root": "lore",
+      "budget": "major_lore"
+    },
+    "cosmology": {
+      "prefix": "cosmology",
+      "root": "cosmology",
+      "budget": "major_lore"
+    },
+    "system": {
+      "prefix": "system",
+      "root": "systems",
+      "budget": "major_lore"
+    },
+    "item": {
+      "prefix": "item",
+      "root": "equipment",
+      "budget": "item"
+    },
+    "creature": {
+      "prefix": "creature",
+      "root": "creatures",
+      "budget": "faction"
+    },
+    "culture": {
+      "prefix": "culture",
+      "root": "culture",
+      "budget": "location"
+    },
+    "quest": {
+      "prefix": "quest",
+      "root": "quests",
+      "budget": "faction"
+    },
+    "timeline_event": {
+      "prefix": "event",
+      "root": "timeline",
+      "budget": "faction"
+    },
+    "term": {
+      "prefix": "term",
+      "root": "terminology",
+      "budget": "item"
+    },
+    "core": {
+      "prefix": "core",
+      "root": "core",
+      "budget": "item"
+    }
+  },
+  "id_pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$",
+  "slug_pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+  "source_file": "source/<root>/<subdir>/<slug>.md  (slug = the part of the id after the prefix)",
+  "compiled_file": "data/<root>/<subdir>/<slug>-<TIER>.json",
+  "tiers": [
+    "LITE",
+    "STANDARD",
+    "LARGE",
+    "ULTRA"
+  ],
+  "rules": [
+    "IDs are stable: never change an id once published. If an entity is renamed, keep the id and add the old name to aliases.",
+    "The file stem should equal the id slug. A mismatch is a lint warning, not an identity change: references always use ids.",
+    "Slugs are lowercase ASCII, hyphen-separated. Transliterate diacritics (e.g. 'Neuvillette' -> neuvillette, 'Mualani' -> mualani).",
+    "Distinct entities that share a name get distinct slugs with a disambiguator (e.g. character.traveler vs npc.traveler-sibling)."
+  ]
+}

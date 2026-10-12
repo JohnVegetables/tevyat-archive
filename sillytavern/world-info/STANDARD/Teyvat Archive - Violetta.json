@@ -1,0 +1,86 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": [
+        "Violetta",
+        "Odette",
+        "Signora recruitment"
+      ],
+      "keysecondary": [
+        "Spessiva"
+      ],
+      "comment": "Violetta: Odette's recruitment",
+      "content": "After the death of Odette's father, Signora visited at the Captain's request and noted that without Violetta's income a pension would scarcely raise a child. She offered to take Odette into Fatui care in exchange for an allowance. Violetta refused at once. Odette, who had overheard, promised she could do what was required and continue ballet; Signora acquiesced to Odette's wishes (Odette Character Story 4, with the wiki's summary).",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 0
+    },
+    "1": {
+      "uid": 1,
+      "key": [
+        "Spirit Seeker"
+      ],
+      "keysecondary": [
+        "Spessiva",
+        "Violetta",
+        "Odette"
+      ],
+      "comment": "Violetta: Spirit Seeker",
+      "content": "\"Spirit Seeker\" is a classic ballet passed down the Spessiva family. Marionette says it has not been performed in years and that Odette has been rehearsing it for a return to the stage. In the quest Mistilteinn, a memory of Signora speaking to Odette says she had seen it performed many times, including by Odette's mother.",
+      "constant": false,
+      "vectorized": false,
+      "selective": true,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 110,
+      "position": 0,
+      "disable": false,
+      "ignoreBudget": false,
+      "excludeRecursion": false,
+      "preventRecursion": true,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": false,
+      "matchWholeWords": true,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "displayIndex": 1
+    }
+  }
+}

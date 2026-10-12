@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "character.schema.json",
+  "title": "playable character",
+  "description": "JSON header of a playable character source file (source/**/<slug>.md).",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/header_common"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": true,
+    "entity_type": {
+      "enum": [
+        "character"
+      ]
+    },
+    "subdir": true,
+    "name": true,
+    "aliases": true,
+    "summary_line": true,
+    "nation": true,
+    "tags": true,
+    "introduced_in": true,
+    "spoiler_level": true,
+    "availability": true,
+    "related": true,
+    "relationships": true,
+    "knowledge": true,
+    "uncertainties": true,
+    "sources": true,
+    "status": true,
+    "last_verified": true,
+    "wi": true,
+    "notes": true,
+    "facts": {
+      "type": "object",
+      "required": [
+        "playable",
+        "release_version",
+        "status_flag"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "full_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "In-game profile title, if any."
+        },
+        "pronouns": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "species": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "origin": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "residence": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z]+\\.[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "occupation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affiliations": {
+          "$ref": "common.schema.json#/$defs/id_list"
+        },
+        "vision": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Vision element, or e.g. 'none', 'Delusion', 'Gnosis', 'Archon power', 'unknown'."
+        },
+        "element": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "weapon": {
+          "enum": [
+            "Sword",
+            "Claymore",
+            "Polearm",
+            "Bow",
+            "Catalyst",
+            null
+          ]
+        },
+        "rarity": {
+          "enum": [
+            4,
+            5,
+            null
+          ]
+        },
+        "constellation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "birthday": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$",
+          "description": "MM-DD, only if official."
+        },
+        "age": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Only if canon states it; otherwise null."
+        },
+        "height": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Only if verified; the body model category is not a height."
+        },
+        "body_type": {
+          "enum": [
+            "tall male",
+            "medium male",
+            "short male",
+            "tall female",
+            "medium female",
+            "short female",
+            "other",
+            null
+          ]
+        },
+        "playable": {
+          "type": "boolean"
+        },
+        "release_version": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "card": {
+          "type": "boolean",
+          "description": "Generate a SillyTavern character card."
+        },
+        "status_flag": {
+          "enum": [
+            "alive",
+            "dead",
+            "presumed_dead",
+            "missing",
+            "sealed",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "era": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
