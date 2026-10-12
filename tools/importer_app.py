@@ -24,7 +24,7 @@ from archive_lib.installer import available_bundles, check_st, default_greeting,
 UI = Path(getattr(sys, "_MEIPASS", Path(__file__).resolve().parent)) / "importer_ui" / "index.html"
 CONFIG = Path.home() / ".teyvat-archive" / "importer.json"
 APP_VERSION = "1.0.0"
-REPO = "JohnVegetables/tevyat-archive"
+REPO = "JohnVegetables/teyvat-archive"
 IDLE_LIMIT = 15 * 60
 DEFAULTS = {"st": "", "user": "default-user", "tier": "STANDARD", "cards": None, "books": None,
             "greetings": {}, "keep_default": True, "activate": True, "backup": True}

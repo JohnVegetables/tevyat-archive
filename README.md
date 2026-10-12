@@ -14,7 +14,7 @@ Roleplay with **every Genshin Impact character** in [SillyTavern](https://github
 
 ## Install
 
-1. Download the latest zip from [Releases](https://github.com/JohnVegetables/tevyat-archive/releases/latest).
+1. Download the latest zip from [Releases](https://github.com/JohnVegetables/teyvat-archive/releases/latest).
 2. Unzip it.
 3. Open **Teyvat Importer.exe**.
 
@@ -36,7 +36,7 @@ That's it. Pick a character in SillyTavern and start chatting.
 
 ## Need help?
 
-See the [wiki](https://github.com/JohnVegetables/tevyat-archive/wiki).
+See the [wiki](https://github.com/JohnVegetables/teyvat-archive/wiki).
 
 ## License
 
